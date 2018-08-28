@@ -4,7 +4,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 @SpringBootApplication
-//@EnableTransactionManagement
 //@ComponentScan(basePackages={"com.platflat.eureka.server"})
 //@MapperScan("com.platflat.eureka.server.dao")
 //@EnableCaching

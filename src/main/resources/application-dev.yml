@@ -1,12 +1,13 @@
 server:
   port: 12000
+  context-path: /eureka_server
   compression:
     enabled: true
   tomcat:
     uri-encoding: UTF-8
 spring:  
   application: 
-    name: platform.eureka.server
+    name: eureka.server
 eureka: 
   instance:
     hostname: localhost
@@ -15,4 +16,14 @@ eureka:
     fetch-registry: false
     service-url: 
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-  
+swagger:
+    basepackage: com.platflat.eureka.server.provider
+    service:
+        name: sendinfo product
+        description: 产品中心
+        developer: admin
+logging:
+  level:
+    com.netflix: warn
+    org.springframework.cloud: warn
+    com.platform: debug
