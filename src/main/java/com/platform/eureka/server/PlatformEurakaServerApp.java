@@ -1,4 +1,4 @@
-package com.platflat.eureka.server;
+package com.platform.eureka.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

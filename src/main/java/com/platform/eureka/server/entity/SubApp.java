@@ -1,4 +1,4 @@
-package com.platflat.eureka.server.entity;
+package com.platform.eureka.server.entity;
 
 public class SubApp {
 	private String subAppId;

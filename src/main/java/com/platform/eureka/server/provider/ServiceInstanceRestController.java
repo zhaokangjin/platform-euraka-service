@@ -1,4 +1,4 @@
-package com.platflat.eureka.server.provider;
+package com.platform.eureka.server.provider;
 
 import java.util.ArrayList;
 import java.util.List;
